@@ -1,0 +1,4 @@
+/* Hide the default text for the new tab button */
+#new-tab-button .toolbarbutton-text {
+    display: none !important; /* Hides the text */
+}
