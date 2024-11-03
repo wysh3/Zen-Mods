@@ -6,7 +6,6 @@
 
 Zen Browser’s default design includes borders around tabs for aesthetics, but some of us like it even simpler. This mod removes those borders, leaving you with a sleek, spacious interface that lets you focus on what’s important. 
 
-![mod preview](https://github.com/user-attachments/assets/1d6fa3cf-a84e-46cc-bc68-27588514a284)
+![mod preview](https://github.com/user-attachments/assets/44bfece6-7e00-4c00-86b8-de7ba0c84564)
 
 [⭐ Star the repo](https://github.com/wysh3/Zen-Mods) if you appreciate this theme!
-
