@@ -1,0 +1,9 @@
+#tabbrowser-tabbox,
+#tabbrowser-tabpanels {
+    padding: 0px !important; /* Remove all padding */
+    margin: 0px !important; /* Remove all margin */
+}
+
+:root {
+    --zen-border-radius: 0px !important; /* Remove border radius for a square appearance */
+}
