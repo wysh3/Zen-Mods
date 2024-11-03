@@ -1,7 +1,11 @@
-This mod for Zen Browser allows users to remove borders around tabs, enhancing the browsing experience by providing more screen space for web content.
+# ✨ No Borders
 
-## Overview
+**Get more screen, less clutter.** This mod for Zen Browser removes borders around tabs, giving you extra space for content and a cleaner browsing experience. Perfect for anyone who loves a minimalist, streamlined look. 
 
-Zen Browser features borders around its tab interface for aesthetic purposes. While this design choice appeals to many, some users prefer a minimalist approach. This mod caters to those preferences by eliminating the borders, resulting in a cleaner and more spacious appearance.
+## 📌 Overview
 
-![image](https://github.com/user-attachments/assets/bba2eb2b-bb12-46d2-8666-d8d18ec82a1d)
+Zen Browser’s default design includes borders around tabs for aesthetics, but some of us like it even simpler. This mod removes those borders, leaving you with a sleek, spacious interface that lets you focus on what’s important. 
+
+![mod preview](https://github.com/user-attachments/assets/bba2eb2b-bb12-46d2-8666-d8d18ec82a1d)
+
+[⭐ Star the repo](https://github.com/wysh3/Zen-Mods) if you appreciate this theme!
