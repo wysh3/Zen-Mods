@@ -1,0 +1,33 @@
+/* First, define the CSS custom property with the default value */
+:root {
+  --w-urlbar-bg_color: #ff6b6b66, #4ecdc466, #ff6b6b66;
+}
+
+/* Highlight urlbar when loading the page */
+#nav-bar {
+  #urlbar:not([breakout-extend="true"]) { /* Unless urlbar is opened */
+    #urlbar-background::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, var(--w-urlbar-bg_color));
+      background-size: 200% 100%;
+      animation: urlbar-loading-gradient 1s linear reverse infinite;
+      animation-play-state: paused;
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+  }
+
+  &:has(#reload-button[displaystop="true"]) { /* When 'Stop' button is shown isntead of 'Reload' */
+    #urlbar-background::before {
+      animation-play-state: running;
+      opacity: 1;
+    }
+  }  
+}
+
+@keyframes urlbar-loading-gradient {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
