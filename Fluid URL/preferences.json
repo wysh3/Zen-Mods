@@ -1,0 +1,47 @@
+[
+   {
+        "property": "w.urlbar.bg_color",
+        "label": "Default preset",
+        "placeholder": "Disabled",
+        "type": "dropdown",
+        "disabledOn": [],
+        "options": [
+            {
+                "label": "Default Gradient",
+                "value": "#ff6b6b66, #4ecdc466, #ff6b6b66",
+                "default": true
+            },
+            {
+                "label": "Blue Gradient",
+                "value": "#0066ff66, #00ffff66, #0066ff66"
+            },
+            {
+                "label": "Purple Gradient",
+                "value": "#9933ff66, #ff33cc66, #9933ff66"
+            },
+            {
+                "label": "Green Gradient",
+                "value": "#33cc3366, #99ff6666, #33cc3366"
+            },
+            {
+                "label": "Rainbow Gradient",
+                "value": "#ff000066, #ffa50066, #ffff0066, #00ff0066, #0000ff66, #ff000066"
+            },
+            {
+                "label": "Custom",
+                "value": "custom",
+                "customInput": true
+            }
+        ]
+    }, 
+    {
+        "property": "w.urlbar.bg_color",
+        "label": "Custom Color for the URL Bar Gradient",
+        "placeholder": "Enter Color Code",
+        "type": "string",
+        "dependsOn": {
+            "property": "w.urlbar.bg_color",
+            "value": "custom"
+        }
+    }
+]
