@@ -4,7 +4,6 @@
         "label": "URL Bar Loading Animation",
         "placeholder": "Select gradient preset",
         "type": "dropdown",
-        "disabledOn": [],
         "options": [
             {
                 "label": "Default Gradient",
@@ -41,8 +40,7 @@
             },
             {
                 "label": "Custom",
-                "value": "custom",
-                "customInput": true
+                "value": "custom"
             }
         ]
     },
@@ -50,10 +48,6 @@
         "property": "w.urlbar.bg_color",
         "label": "Custom Color for URL Bar Gradient",
         "placeholder": "Enter comma-separated colors (e.g., #ff000066, #00ff0066)",
-        "type": "string",
-        "dependsOn": {
-            "property": "w.urlbar.bg_color",
-            "value": "custom"
-        }
+        "type": "string"
     }
 ]
