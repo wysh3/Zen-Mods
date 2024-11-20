@@ -47,7 +47,7 @@
     {
         "property": "w.urlbar.bg_color",
         "label": "Custom Color for URL Bar Gradient",
-        "placeholder": "Enter comma-separated colors (e.g., #ff000066, #00ff0066)",
+        "placeholder": "Enter comma-separated colors (e.g., #ff6b6b66, #4ecdc466, #ff6b6b66)",
         "type": "string"
     }
 ]
