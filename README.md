@@ -6,4 +6,4 @@
 
 - [**Fluid URL**](https://zen-browser.app/themes/cfa711cf-e9f7-4c35-8289-3e7633f93565)
 
-![Fluid URL thumbnail](https://github.com/wysh3/Zen-Mods/blob/main/Fluid%20URL/image.png)
+![Fluid URL thumbnail](https://raw.githubusercontent.com/wysh3/Zen-Mods/refs/heads/main/Fluid%20URL/image.png)
