@@ -8,4 +8,6 @@ Zen Browser’s default design includes borders around tabs for aesthetics, but 
 
 ![mod preview](https://github.com/user-attachments/assets/44bfece6-7e00-4c00-86b8-de7ba0c84564)
 
-[⭐ Star the repo](https://github.com/wysh3/Zen-Mods) if you appreciate this theme!
+
+
+### [<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" align="top"/> Star Project](https://github.com/wysh3/Zen-Mods) if you appreciate this theme!
