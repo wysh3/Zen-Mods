@@ -4,7 +4,7 @@
 }
 
 #urlbar:not([breakout-extend="true"]) {
-  #urlbar-background::before {
+  .urlbar-input-container::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -18,7 +18,7 @@
   }
 }
 
-:has(#reload-button[displaystop="true"]) #urlbar-background::before {
+:has(#reload-button[displaystop="true"]) .urlbar-input-container::before {
   animation-play-state: running;
   opacity: 1;
 }
