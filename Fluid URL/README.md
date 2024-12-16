@@ -10,6 +10,8 @@ A minimalist mod that enhances the URL bar with a smooth, gradient-based loading
 
 - **Custom Gradient:** Select "Custom" to input your own gradient by entering comma-separated hex colors (e.g., #ff000066, #00ff0066).
 
+## Download
 
+* [Available on the zen mods store](https://zen-browser.app/mods/cfa711cf-e9f7-4c35-8289-3e7633f93565/)
 
 ### [<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" align="top"/> Star Project](https://github.com/wysh3/Zen-Mods) if you appreciate this theme!
