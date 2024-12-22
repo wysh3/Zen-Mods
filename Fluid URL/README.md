@@ -14,4 +14,8 @@ A minimalist mod that enhances the URL bar with a smooth, gradient-based loading
 
 * [Available on the zen mods store](https://zen-browser.app/mods/cfa711cf-e9f7-4c35-8289-3e7633f93565/)
 
+## Credits:
+
+thanks to candlebob from zen discord server :)
+
 ### [<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" align="top"/> Star Project](https://github.com/wysh3/Zen-Mods) if you appreciate this theme!
