@@ -13,12 +13,12 @@
     animation: urlbar-loading-gradient 1s linear reverse infinite;
     animation-play-state: paused;
     opacity: 0;
-    transition: opacity 0.25s;
+    transition: opacity 0.3s;
     z-index: -1;
   }
 }
 
-:has(#reload-button[displaystop="true"]) .urlbar-input-container::before {
+#main-window:has(.tabbrowser-tab[selected][busy]) .urlbar-input-container::before {
   animation-play-state: running;
   opacity: 1;
 }
