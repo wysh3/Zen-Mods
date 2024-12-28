@@ -1,6 +1,6 @@
 /* Firefox URL Bar Loading Animation */
 :root {
-  --w-urlbar-bg_color: #0066ff66, #00ffff66, #0066ff66;
+  --w-urlbar-bg_color: #ff6b6b66, #4ecdc466, #ff6b6b66;
 }
 
 #urlbar {
