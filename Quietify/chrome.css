@@ -1,10 +1,12 @@
+/* ---- Volume Icon Theming ---- */
+/* edited from github.com/itsmefen/Dark-Harmony */
 .tabbrowser-tab img {
-    transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]) img {
-    opacity: 0 !important;
-    transition: opacity 0.1s !important;
+  opacity: 0 !important;
+  transition: opacity 0.1s !important;
 }
 
 .tab-icon-overlay {  
@@ -16,7 +18,7 @@
     top: 0px !important;
     right: 0px !important;
     scale: 1.5 !important;
-    opacity: 0.8 !important;
+    opacity: 0.9 !important;
     margin: 0px 3px !important;
     background: white !important;
     /* svg modified from https://samherbert.net/svg-loaders/ */
@@ -32,7 +34,7 @@
       filter: invert(1);
     }
   }
-  
+
   &:is([activemedia-blocked]) {
     background: none !important;
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEb0lEQVR4nO2YW4hWVRTHP7URvM6ooWYa1kPlQ4GXxISyC4mUVg/RZQyjKLUsUcsmJRm8pqUgXSCRbhZCqT1mkARaWm+l9qK9jCKZ2KhUD4nWLxbuM/1ncfb3nfPNGaeH84cPPtZ/n7XX2pe1/3tXKiVKlChR4v8I4BZgFtCnB/q+AnjQYuiqo2bgby6htbAIs/e/KvRtMTxWr5PpwHn+w3uFR1o7hg+kf4vlnrwOrgHaxckp4Npuizgex3Wh7wS/AWOyftwH2C8f/wFM6Pao4/FMDDEk+BboneXDBXTGbMe/CvwKbOqGoFcCx4Hlzv64i2l+LUdXAmflg22Of9E5bCowif7O92LHfyLcGWBYNWerXePhwt0JXBT+G6BXUYmEPvaKf+trmnAj3CCvjDkZ5Bq2CDcwTHmCX4DRRSYR+hkNnJR+jgEDhH/FDfTANCdPukaDhXtNuL+AKe7Qmgc8kjNoKyrPAwuBBrHfGvpIsEa4wSG2BE+kOf5aGrwl9mGuarzhvtsqXOZkgOfku3cdt1G434Ghwr0t3B7vtNGt/8nCLXUzpU7nC5c+QvFEnnXfzhVuqFvmS4WbIvYLunIqQUslOKWbGDgk3GqxD3HTvE+XSGjTFxgXfn1TOPtGD7sm4dcId1DsvYHTwt2nTtcJ8anbfIrxkQrX7ipc/7A8zkkb+/860E/aDXeDsUq4Ca7vq4XbkbaHjNglRMdhZEJN7G1upn4W7mWXxHfEccAl0yLcEbH3cpXyUXcoJ9ihiRwU4qHIqOtM3Sh2U6YjIhs1hg3S/ipR2IYbhNtOyrkBPCz2HzURzfx2sW8T+2axPyD2Q27d63KK4awruT8Jd3+KjDd8KPZpYj+miZyJ7IPPI8tHK84XYrdNnRU68rvTdBSwROy7IvunPW8iLZGyuzuy5GrhevnuS7HP60oiurRuE/tHGZbW4R5eWm15N/tnkZG3jTpSOCuxtbBe2o8C/onM1PYMm/0HTWRnpPzanV0FnJbfo5Fl1y+U2Bj2u/K7rI7yuyJWftdGyuwYF8T4yLR7yW/JbHAyw/6vd0lEpTmXboaxA3FnmtowYmYViXI4okSb3L0+TaI0iERJ46pJlLVpZ0WQKNY2wb1eNJoAS9DxjmRl142qisa5btSeqdSnfg1PO8WtM/WScFPFbjEPqibj36wi4ze677YI15wjEbuLJNjiuE1VZPw7wn2V92K1zr0vTXUXq6dsM+a5+oZS/UKYmQY34ucjirvRzdScvFfdAa6CnMz8vtS1q26biVDhlwvXnnrVzfD4cIe7fH1f5OND2MQH3PpX3TfSHbattZ6DVK587PjFdEZjgYlY34pFjtfD0arWkLzVxD/Q2fSeUCleYDKbQ5DLnH1O7uoYXjfsWTKBVayJlR4CMAn4U+LZm+nJVE50/4g9ttujdrCHc/eIfVpP+EywJ3xXBjvV+ssB4H3p32K5q15HzVKpOp5kLheA1tD3RRWN9Tq7Cbi7sOjyl+QZwM090X+JEiVKlKjUwr/rwkME7dPwYwAAAABJRU5ErkJggg==") !important;
@@ -51,42 +53,23 @@
     mask-image: var(--mute-svg) !important;
   }
 }
-@media (-moz-bool-pref: "theme.collapsed.mode") {
+@media not (-moz-bool-pref: "zen.view.sidebar-expanded") {
     .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]):hover img {
         opacity: 1 !important;
         transition: opacity 0.1s ease-out !important;
     }
 
-    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]):hover .tab-icon-overlay {
-        &:is([soundplaying]) {
-            list-style-image: url("chrome://browser/skin/tabbrowser/tab-audio-playing-small.svg") !important;
-            background-image: none !important;
-        }
-
-        &:is([muted]) {
-            list-style-image: url("chrome://browser/skin/tabbrowser/tab-audio-muted-small.svg") !important;
-            background-image: none !important;
-        }
-
-        &:is([activemedia-blocked]) {
-            list-style-image: url("chrome://browser/skin/tabbrowser/tab-audio-blocked-small.svg") !important;
-            background-image: none !important;
-        }
-
-        background: none !important;
-        border-radius: 0px !important;
-        opacity: 1 !important;
+    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]):hover .tab-icon-overlay { 
         margin: 0px !important;
         transition: opacity 0.1s ease-out, transform 0.1s ease-out !important;
-        transform: translate(8px, -8px) scale(0.7) !important;
+        transform: translate(6.9px, -6.9px) scale(0.69) !important;
     }
-}
+  }
 #zen-essentials-container {
-.tab-icon-overlay:is([soundplaying], [muted]) {
+  .tab-icon-overlay:is([soundplaying], [muted]) {
     margin: 0px !important;
-}
+  }
 
-.tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]) img {
+  .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]) img {
     opacity: 0 !important;
-}
-}
+  }
