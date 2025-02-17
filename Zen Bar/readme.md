@@ -7,3 +7,7 @@ Elegant and clutter-free URL bar popup
 ## Optional settings
 
 set ``browser.urlbar.maxRichResults`` in ``about:config`` to change the number of autocomplete suggestions in zen’s url bar.
+
+## unrelated
+
+need to push a new update to the mod once it gets merged
