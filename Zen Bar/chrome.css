@@ -12,10 +12,6 @@
   display: none !important;
 }
 
-#urlbar[open] {
-  top: calc(var(--zen-toolbar-height) * 3.3) !important;
-}
-
 #urlbar[breakout-extend="true"] > #urlbar-background {
   background: rgba(10, 10, 10, 0.4) !important;
   backdrop-filter: blur(3rem) !important;
